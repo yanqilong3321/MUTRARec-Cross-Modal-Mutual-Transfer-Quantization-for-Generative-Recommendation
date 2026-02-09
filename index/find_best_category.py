@@ -12,7 +12,7 @@ def get_top1_ratio(codes):
     return cnt.most_common(1)[0][1] / len(codes)
 
 def find_best_category():
-    base_dir = "/data/yql/workspace/MQL4GRec_v1/data/Instruments"
+    base_dir = "/data/yql/workspace/MUTRARec_v1/data/Instruments"
     item_path = os.path.join(base_dir, "Instruments.item.json")
     ind_path = os.path.join(base_dir, "Instruments.index_lemb_v1.json")
     our_path = os.path.join(base_dir, "Instruments.index_lemb_v4.json")

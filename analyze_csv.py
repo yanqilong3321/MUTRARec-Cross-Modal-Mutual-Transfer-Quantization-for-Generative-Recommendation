@@ -14,7 +14,7 @@ def parse_metrics(metrics_str):
             return {}
 
 results = []
-csv_path = '/data/yql/workspace/MQL4GRec_v1/log/nni_trials_Arts_analysis.csv'
+csv_path = '/data/yql/workspace/MUTRARec_v1/log/nni_trials_Arts_analysis.csv'
 
 with open(csv_path, 'r') as f:
     reader = csv.DictReader(f)

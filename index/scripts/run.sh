@@ -12,7 +12,7 @@ python -u main_mul.py \
   --num_emb_list $Code_num $Code_num $Code_num $Code_num \
   --sk_epsilons 0.0 0.0 0.0 0.003 \
   --device cuda:0 \
-  --data_root /data/yql/workspace/MQL4GRec/data/ \
+  --data_root /data/yql/workspace/MUTRARec/data/ \
   --embedding_file .emb-llama-td.npy \
   --datasets $Datasets \
   --ckpt_dir $OUTPUT_DIR \
@@ -32,7 +32,7 @@ python -u main_mul.py \
   --num_emb_list $Code_num $Code_num $Code_num $Code_num \
   --sk_epsilons 0.0 0.0 0.0 0.003 \
   --device cuda:0 \
-  --data_root /data/yql/workspace/MQL4GRec/data/ \
+  --data_root /data/yql/workspace/MUTRARec/data/ \
   --embedding_file .emb-ViT-L-14.npy \
   --datasets $Datasets \
   --ckpt_dir $OUTPUT_DIR \

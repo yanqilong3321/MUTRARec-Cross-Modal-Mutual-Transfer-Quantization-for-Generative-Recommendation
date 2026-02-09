@@ -12,7 +12,7 @@ python -u main_fusion.py \
   --num_emb_list $Code_num $Code_num $Code_num $Code_num \
   --sk_epsilons 0.0 0.0 0.0 0.003 \
   --device cuda:0 \
-  --data_root /data/yql/workspace/MQL4GRec/data/ \
+  --data_root /data/yql/workspace/MUTRARec/data/ \
   --datasets $Datasets \
   --ckpt_dir $OUTPUT_DIR \
   --eval_step 2 \

@@ -118,5 +118,5 @@ def analyze_nni_trials(trials_dir):
     return df
 
 if __name__ == '__main__':
-    trials_dir = '/data/yql/workspace/MQL4GRec_v1/log/nni_trials_Arts'
+    trials_dir = '/data/yql/workspace/MUTRARec_v1/log/nni_trials_Arts'
     df = analyze_nni_trials(trials_dir)

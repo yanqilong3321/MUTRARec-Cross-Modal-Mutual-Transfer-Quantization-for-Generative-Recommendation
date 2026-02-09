@@ -18,7 +18,7 @@ python -u main_fusion_v3.py \
   --num_emb_list $Code_num $Code_num $Code_num $Code_num \
   --sk_epsilons 0.0 0.0 0.0 0.003 \
   --device cuda:2 \
-  --data_root /data/yql/workspace/MQL4GRec/data/ \
+  --data_root /data/yql/workspace/MUTRARec/data/ \
   --datasets $Datasets \
   --ckpt_dir $OUTPUT_DIR \
   --log_file train_v3_B.log \

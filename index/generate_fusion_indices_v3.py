@@ -17,7 +17,7 @@ def parse_args():
     parser.add_argument('--dataset', type=str, default=None)
     parser.add_argument('--ckpt_path', type=str, default=None)
     parser.add_argument('--output_dir', type=str, default=None)
-    parser.add_argument('--data_root', type=str, default="/data/yql/workspace/MQL4GRec/data/")
+    parser.add_argument('--data_root', type=str, default="/data/yql/workspace/MUTRARec/data/")
     parser.add_argument('--device', type=str, default="cuda:0")
     parser.add_argument('--text_embedding_file', type=str, default=".emb-llama-td.npy")
     parser.add_argument('--vis_embedding_file', type=str, default=".emb-ViT-L-14.npy")
