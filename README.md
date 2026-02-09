@@ -8,6 +8,7 @@
 
 > pytorch==2.1.0  
 transformers <= 4.45.0
+>
 > pip install -r requirements.txt
 
 
