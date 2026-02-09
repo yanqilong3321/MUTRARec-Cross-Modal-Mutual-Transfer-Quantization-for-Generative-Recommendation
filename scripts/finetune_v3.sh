@@ -2,9 +2,6 @@
 export WANDB_MODE=disabled
 export CUDA_LAUNCH_BLOCKING=1
 
-# 使用NNI优化后的高效超参数 (来自 trial_YeeZp)
-# 性能接近SOTA (得分0.106110 vs 最佳0.106723, 仅差0.057%)
-# 但batch_size=256，训练速度提升4倍，显存利用更充分
 Per_device_batch_size=128
 Learning_rate=5e-4 
 Weight_decay=0.01 
