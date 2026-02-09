@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# PyTorch
+*.pth
+*.pt
+checkpoints/
+pretrain_ckpt/
+
+# Data files
+*.npy
+*.npz
+data.zip
+
+# Logs
+*.log
+log/
+logs/
+result/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# NNI
+nni_experiments/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
